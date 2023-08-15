@@ -1,0 +1,8 @@
+.videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.videos a {
+    text-decoration: none;
+}

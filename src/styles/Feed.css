@@ -1,0 +1,19 @@
+.feed {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+}
+.loading-videos {
+    display: block;
+    text-align: center;
+}
+.contents {
+    margin: 5px;
+    margin-left: 10px;
+}
+@media screen and (max-width: 600px) {
+    .feed {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    margin-top: 0px;
+}
+.searchBar {
+    border: 1px solid rgb(248, 246, 246);
+    display: flex;
+    place-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+.logo svg {
+    font-size: 30px;
+    color: red;
+}
+.logo {
+    padding-left: 20px;
+}
+.input {
+    font-size: 17px;
+    outline: none;
+    border: none;
+}
+.searchButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.searchButton {
+    color: red;
+}
